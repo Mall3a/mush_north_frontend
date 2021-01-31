@@ -1,9 +1,3 @@
-:local(.container) {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 :local(.backgroundImg) {
   background-attachment: fixed;
   background-position: center;
@@ -11,5 +5,19 @@
   background-size: cover;
   background-image: url(../../images/background.jpg);
   width: 100%;
-  height: 700px;
+  /* height: 700px; */
+}
+
+:local(.infoBox) {
+  background: rgba(255, 255, 255, 0.7);
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  /* height: 50%; */
+  padding: 10%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.transparentBox {
 }

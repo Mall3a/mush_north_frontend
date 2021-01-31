@@ -7,7 +7,15 @@ const Home = (props) => {
   return (
     <div>
       <section className={styles.backgroundImg}>
-        <div className={styles.container}>asdasd</div>
+        <div>
+          <div className={styles.infoBox}>
+            <h3>Champiñones Ostras</h3>
+            <p>
+              Nos especializamos en la producción de hongos comestibles con alto
+              contenido nutricional.
+            </p>
+          </div>
+        </div>
       </section>
       {/* <section className={styles.backgroundImg}>
         <div className={styles.container}>asdasd</div>
