@@ -16,6 +16,11 @@ const Navbar = (props) => {
         </Link>
       </li>
       <li>
+        <Link className={styles.link} to="/recipes">
+          Recetas
+        </Link>
+      </li>
+      <li>
         <Link className={styles.link} to="/about">
           Nosotros
         </Link>

@@ -1,0 +1,23 @@
+.instagram {
+  text-align: center;
+  margin: 3rem;
+}
+
+.instagramIcon {
+  font-size: 30px;
+  color: rgb(196, 3, 3);
+  /* pointer-events: all; */
+  cursor: pointer;
+}
+
+.instagramTitle {
+  margin: 1rem;
+}
+
+.instagramName {
+  cursor: pointer;
+}
+
+.instagramName:hover {
+  text-decoration: underline;
+}

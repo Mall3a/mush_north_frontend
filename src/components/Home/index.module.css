@@ -14,11 +14,13 @@
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-  /* height: 100px; */
-  /* padding: 15%; */
   padding: 5rem;
   font-size: 30px;
   text-align: center;
+}
+
+.title {
+  margin-bottom: 3rem;
 }
 
 .button {
@@ -38,4 +40,64 @@
 .button:hover {
   background: #a53a4d;
   cursor: pointer;
+}
+
+.recipesContainer {
+  margin-right: 200px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipesInfoContainer {
+  margin-left: 50px;
+  text-align: center;
+}
+
+/* .nutritionContainer {
+  width: 100%;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+} */
+
+@media screen and (max-width: 1100px) {
+  :local(.backgroundImg) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  :local(.infoBox) {
+    width: 50%;
+    padding: 2rem;
+    font-size: 20px;
+  }
+
+  .title {
+    margin-bottom: 1.5rem;
+  }
+
+  .button {
+    margin-top: 3rem;
+    border: none;
+  }
+
+  .recipesContainer {
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recipesContainer img {
+    width: 100%;
+  }
+
+  .recipesInfoContainer {
+    margin: 50px;
+    margin-top: 30px;
+    font-size: 15px;
+  }
 }
