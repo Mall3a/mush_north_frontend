@@ -5,19 +5,37 @@
   background-size: cover;
   background-image: url(../../images/background.jpg);
   width: 100%;
-  /* height: 700px; */
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 :local(.infoBox) {
   background: rgba(255, 255, 255, 0.7);
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  /* height: 50%; */
-  padding: 10%;
+  width: 40%;
+  /* height: 100px; */
+  /* padding: 15%; */
+  padding: 5rem;
   font-size: 30px;
   text-align: center;
 }
 
-.transparentBox {
+.button {
+  margin-top: 5rem;
+  border: none;
+  background: #a51e36;
+  color: #fff !important;
+  padding: 14px 45px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.button:hover {
+  background: #a53a4d;
+  cursor: pointer;
 }
